@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* global.css */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+  }
+
+  .glassmorphism {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border-radius: 0.5rem; /* Adjust as needed */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+  }
+  
+  
